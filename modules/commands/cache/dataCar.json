@@ -1,0 +1,151 @@
+{
+    "500508708": {
+        "car": [],
+        "cup": 0
+    },
+    "100049138099551": {
+        "car": [
+            {
+                "machXe": 2,
+                "locNhot": 2,
+                "bugi": 1,
+                "locGio": 1,
+                "name": "CBR-650R",
+                "speed": 140
+            },
+            {
+                "machXe": 1,
+                "locNhot": 1,
+                "bugi": 1,
+                "locGio": 1,
+                "name": "Yamaha-YZF-R1",
+                "speed": 100
+            },
+            {
+                "machXe": 1,
+                "locNhot": 1,
+                "bugi": 1,
+                "locGio": 1,
+                "name": "Aprilia-RSV4",
+                "speed": 100
+            },
+            {
+                "machXe": 1,
+                "locNhot": 1,
+                "bugi": 1,
+                "locGio": 1,
+                "name": "Kawasaki-Z1000",
+                "speed": 100
+            },
+            {
+                "machXe": 1,
+                "locNhot": 1,
+                "bugi": 1,
+                "locGio": 1,
+                "name": "Ducati-Monster-795",
+                "speed": 100
+            }
+        ],
+        "cup": 4
+    },
+    "100073683384494": {
+        "car": [
+            {
+                "machXe": 1,
+                "locNhot": 1,
+                "bugi": 1,
+                "locGio": 1,
+                "name": "Aprilia-RSV4",
+                "speed": 100
+            }
+        ],
+        "cup": 0
+    },
+    "100078378863686": {
+        "car": [],
+        "cup": 0
+    },
+    "100077348761253": {
+        "car": [
+            {
+                "machXe": 1,
+                "locNhot": 1,
+                "bugi": 1,
+                "locGio": 1,
+                "name": "CBR-650R",
+                "speed": 100
+            },
+            {
+                "machXe": 1,
+                "locNhot": 1,
+                "bugi": 1,
+                "locGio": 1,
+                "name": "Kawasaki-Z1000",
+                "speed": 100
+            },
+            {
+                "machXe": 1,
+                "locNhot": 1,
+                "bugi": 1,
+                "locGio": 1,
+                "name": "Aprilia-RSV4",
+                "speed": 100
+            }
+        ],
+        "cup": 2
+    },
+    "100078003146254": {
+        "car": [
+            {
+                "machXe": 1,
+                "locNhot": 1,
+                "bugi": 1,
+                "locGio": 1,
+                "name": "Aprilia-RSV4",
+                "speed": 100
+            },
+            {
+                "machXe": 1,
+                "locNhot": 1,
+                "bugi": 1,
+                "locGio": 1,
+                "name": "Ducati-Monster-795",
+                "speed": 100
+            }
+        ],
+        "cup": 5
+    },
+    "100075401250019": {
+        "car": [],
+        "cup": 0
+    },
+    "100065531121228": {
+        "car": [
+            {
+                "machXe": 1,
+                "locNhot": 1,
+                "bugi": 1,
+                "locGio": 1,
+                "name": "Ducati-Monster-795",
+                "speed": 100
+            }
+        ],
+        "cup": 0
+    },
+    "100081383358312": {
+        "car": [],
+        "cup": 0
+    },
+    "100076967659529": {
+        "car": [],
+        "cup": 0
+    },
+    "100066874932086": {
+        "car": [],
+        "cup": 0
+    },
+    "100050924621842": {
+        "car": [],
+        "cup": 0
+    }
+}

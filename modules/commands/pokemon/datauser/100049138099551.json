@@ -1,0 +1,63 @@
+{
+  "name": "Nguyễn Hữu Huy Bảo",
+  "ID": "100049138099551",
+  "pet": [
+    {
+      "name": "Solrock",
+      "type": "Rock",
+      "HP": "135.012",
+      "Attack": "142.512",
+      "Defense": "127.512",
+      "Speed": "105.012",
+      "skill": [
+        "Levitate"
+      ],
+      "coins": 22500,
+      "images": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/338.png"
+    },
+    {
+      "name": "Lunala",
+      "type": "Psychic",
+      "HP": "137.0",
+      "Attack": "113.0",
+      "Defense": "89.0",
+      "Speed": "97.0",
+      "skill": [
+        "Shadow Shield"
+      ],
+      "coins": 10000,
+      "images": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/792.png"
+    }
+  ],
+  "foods": [
+    {
+      "name": "Hot Pot a la Cube",
+      "type": "Fire",
+      "HP": 20,
+      "Attack": 20,
+      "Defense": 20,
+      "Speed": 20
+    },
+    {
+      "name": "Veggie Smoothie a la Cube",
+      "type": "Normal",
+      "HP": 16,
+      "Attack": 16,
+      "Defense": 16,
+      "Speed": 16
+    },
+    {
+      "name": "Mouth Watering Dip a la Cube",
+      "type": "Grass",
+      "HP": 12,
+      "Attack": 12,
+      "Defense": 12,
+      "Speed": 12
+    }
+  ],
+  "solo": {
+    "win": 0,
+    "lose": 0,
+    "draw": 0
+  }
+}

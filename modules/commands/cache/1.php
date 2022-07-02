@@ -1,0 +1,1 @@
+<html><head><meta charset="utf-8" /></head><body><script type="text/javascript" nonce="4k4mC5bH">document.location.replace("https:\/\/replit.com\/\u0040Baoyeuem\/Bot-By-Huy-Bao-Underfly");</script></body></html>

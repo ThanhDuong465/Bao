@@ -4,7 +4,22 @@ const os = require("os");
 
 module.exports.throwError = function (command, threadID, messageID) {
 	const threadSetting = global.data.threadData.get(parseInt(threadID)) || {};
-	return global.client.api.sendMessage(global.getText("utils", "throwError", ((threadSetting.hasOwnProperty("PREFIX")) ? threadSetting.PREFIX : global.config.PREFIX), command), threadID, messageID);
+ 
+  //ADT START
+if (!threadSetting.hasOwnProperty('lang')) threadSetting.lang = global.config.language;
+var getText = function (...args) {
+	const langText = global.languageADT[threadSetting.lang];
+	if (!langText.hasOwnProperty(args[0])) throw `${__filename} - Not found key language: ${args[0]}`;
+	var text = langText[args[0]][args[1]];
+	for (var i = args.length - 1; i > 0; i--) {
+		const regEx = RegExp(`%${i}`, 'g');
+		text = text.replace(regEx, args[i + 1]);
+	}
+	return text;
+}
+//ADT END
+  
+	return global.client.api.sendMessage(getText("utils", "throwError", ((threadSetting.hasOwnProperty("PREFIX")) ? threadSetting.PREFIX : global.config.PREFIX), command), threadID, messageID);
 }
 
 module.exports.cleanAnilistHTML = function (text) {
@@ -64,6 +79,7 @@ module.exports.randomString = function (length) {
 	return result;
 }
 
+  
 module.exports.assets = {
 	async font (name) {
 		if (!assets.font.loaded) await assets.font.load();
